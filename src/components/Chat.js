@@ -32,7 +32,7 @@ function Chat() {
     <div className="flex h-screen">
       <div className="w-1/2 flex flex-col p-4 bg-white rounded-l-[12px]">
         <h2 className="font-roboto text-2xl text-[#121212] mb-4">
-          Chat Prompt
+          プロンプト入力
         </h2>
         {promptFields.map((field) => (
           <input
@@ -49,7 +49,7 @@ function Chat() {
             onClick={sendMessage}
             className="p-2 bg-[#04F] text-white font-roboto rounded-[12px]"
           >
-            Send
+            送信する
           </button>
         </div>
         <div className="overflow-auto">
@@ -68,7 +68,7 @@ function Chat() {
         </div>
       </div>
       <div className="w-1/2 flex flex-col p-4 bg-white rounded-r-[12px]">
-        <h2 className="font-roboto text-2xl text-[#121212] mb-4">LLM Output</h2>
+        <h2 className="font-roboto text-2xl text-[#121212] mb-4">出力</h2>
         <div className="flex-1 font-roboto text-[#121212] overflow-auto rounded-[12px]">
           {output.map((entry, index) => (
             <div
