@@ -1,10 +1,10 @@
 import React from 'react';
-import MainComponent from '../components/MainComponent';
+import Chat from '../components/Chat';
 
 const Home = () => {
   return (
     <div>
-      <MainComponent />
+      <Chat />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-function MainComponent() {
+function Chat() {
   const [promptData, setPromptData] = React.useState({});
   const [output, setOutput] = React.useState([]);
   const [promptFields, setPromptFields] = React.useState([]);
@@ -88,4 +88,4 @@ function MainComponent() {
   );
 }
 
-export default MainComponent;
+export default Chat;

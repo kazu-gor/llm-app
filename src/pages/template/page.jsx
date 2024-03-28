@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-function MainComponent() {
+function PromptTemplate() {
   const [items, setItems] = React.useState([{ tag: "", description: "" }]);
   const [showModal, setShowModal] = React.useState(false);
   const [promptBackground, setPromptBackground] = React.useState("");
@@ -126,4 +126,4 @@ function MainComponent() {
   );
 }
 
-export default MainComponent;
+export default PromptTemplate;
